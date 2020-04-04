@@ -1,0 +1,53 @@
+{
+  "name": "express-webpack-project",
+  "version": "0.0.1",
+  "description": "使用express+webpack+react搭建一个web项目",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.4",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^6.0.0",
+    "glob": "^7.1.6",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^4.0.4",
+    "http-proxy-middleware": "^1.0.3",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.2",
+    "url-loader": "^4.0.0",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamthen/express-webpack-project.git"
+  },
+  "keywords": [
+    "express",
+    "webpack",
+    "react"
+  ],
+  "author": "Gary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreamthen/express-webpack-project/issues"
+  },
+  "homepage": "https://github.com/dreamthen/express-webpack-project#readme"
+}
