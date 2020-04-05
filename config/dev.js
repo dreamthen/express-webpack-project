@@ -72,6 +72,7 @@ module.exports = {
                     minSize: 0,
                     minChunks: 1,
                     chunks: 'initial',
+                    priority: 10,
                     test: (module)=>{
                         return /(react|react-dom|lodash|moment|react-router)/.test(module.context)
                     }
@@ -80,6 +81,7 @@ module.exports = {
                     name: 'commons',
                     minSize: 0,
                     minChunks: 1,
+                    priority: 5,
                     chunks: 'initial'
                 }
             }
